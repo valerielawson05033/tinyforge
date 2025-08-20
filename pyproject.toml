@@ -3,3 +3,4 @@ name = "tinyforge"
 version = "0.1.0"
 description = "A tiny model that teaches itself to code better. On your laptop. No cloud. No teacher model. No human feedback."
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
